@@ -1,54 +1,48 @@
-# README Template
+# Product recommendation prediction
 
-Below is a template provided for use when building your README file for students.
+Code to analyze categorical, numerical and text data from fashion items 
+to predict whether a customer would recommend the product
 
-# Project Title
+## File structure
 
-Project description goes here.
-
-## Getting Started
-
-Instructions for how to get a copy of the project running on your local machine.
+Analyses is performed in *analyses.ipynb*
 
 ### Dependencies
 
 ```
-Examples here
+pandas
+numpy
+scikit-learn
+spacy
+matplotlib
+seaborn
 ```
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
 ```
-Give an example here
-```
+source virtualenv/bin/activate
 
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
+pip install -r requirements.txt
 ```
 
 ## Project Instructions
 
-This section should contain all the student deliverables for this project.
+Build a machine learning model to predict whether a customer would recommend a product
+
+1. Build a preprocessing pipeline
+2. Build a pipeline with a ML model
+3. Evaluate the prediction performance
 
 ## Built With
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
+* [scikit-learn](https://scikit-learn.org/stable/) - Package for machine learning
+* [spacy](https://spacy.io/) - Package for natural language processing
+* [pandas](https://pandas.pydata.org/) - Package for data analyses
+* [numpy](https://numpy.org/) - Package for scientific computing
+* [matplotlib](https://matplotlib.org/) Package for creating visualizations
+* [seaborn](https://seaborn.pydata.org/) Package for statistical data visualizations (based on matplotlib)
 
-Include all items used to build project.
 
 ## License
 
